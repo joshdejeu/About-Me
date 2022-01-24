@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="icon" href="images/tabicon.png">
+    <meta charset="utf-8">
+    <title>About Josh</title>
+  </head>
+  <body>
+
+    <header>
+      <div id="myName" class="headerOption"><a class="headFont1" href="#">Josh</a></div>
+      <div class="filler"></div>
+      <div id="logo" class="headerOption"><a class="headFont2" href="#top">About Me <strong>∨</strong></a></div>
+      <div class="headerOption"><a class="headFont2" href="#pointer2">Hobbies <strong>∨</strong></a></div>
+      <div class="headerOption"><a class="headFont2" href="#pointer3">Goals <strong>∨</strong></a></div>
+      <div class="filler"></div>
+    </header>
+
+    <div id="top">a</div>
+
+    <div class="content">
+      <div id="mid">
+        <div class="section1">
+          <div id="oneLeft">
+            <div class="oneLeft_Title">
+              About Me
+            </div>
+            <div class="oneLeft_Line">
+
+            </div>
+            <div class="oneLeft_Text">
+              My name is Josh.
+            </div>
+            <div class="oneLeft_Text">
+              I'm a senior at Pleasant Hope High School.
+            </div>
+            <div class="oneLeft_Text">
+              Finally 6'0.
+              <button type="button" class="celebrate" onclick="celebrate()">🎉</button>
+            </div>
+            <script src="javascript/confetti.js"></script>
+            <script>
+            // for starting the confetti
+            function celebrate(){
+              const start = () => {
+                  setTimeout(function() {
+                      confetti.start()
+                  }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+              };
+              //  for stopping the confetti
+              const stop = () => {
+                  setTimeout(function() {
+                      confetti.stop()
+                  }, 3000); // 3000 is time that after 3 second stop the confetti ( 3000 = 3 sec)
+              };
+              // after this here we are calling both the function so it works
+              start();
+              stop();
+              // if you dont want to make it stop and make it infinite you can just remove the stop function 😊
+            }
+            </script>
+          </div>
+          <div id="oneRight">
+            <img src="images/me1.jpg" id="joshPic1" alt="">
+          </div>
+        </div>
+
+        <div class="sectionSpace" id="pointer2"></div>
+
+        <div class="section2">
+          <div id="twoLeft">
+            <img src="images/blender.png" id="joshPic2" alt="">
+          </div>
+          <div id="twoRight">
+            <div class="twoRight_Title">
+              Hobbies
+            </div>
+            <div class="twoRight_Line">
+
+            </div>
+            <div class="twoRight_Text">
+              I recently hosted my first website.
+            </div>
+            <div class="twoRight_Text">
+              <a class="outerLink" href="http://shop-technique.com/" target="_blank">shop-technique.com</a>
+            </div>
+            <div class="twoRight_Text">
+              I enjoy 3D animation.<br>6th place nationally last year in FBLA.
+            </div>
+          </div>
+        </div>
+
+        <div class="sectionSpace" id="pointer3"></div>
+
+        <div class="section3">
+          <div id="threeLeft">
+            <div class="threeLeft_Title">
+              Goals
+            </div>
+            <div class="threeLeft_Line">
+
+            </div>
+            <div class="threeLeft_Text">
+              I plan to attend MSU.
+            </div>
+            <div class="threeLeft_Text">
+              Bachelors in Computure Science.
+            </div>
+            <div class="threeLeft_Text">
+              Hopefully become a Software Engineer.
+            </div>
+          </div>
+          <div id="threeRight">
+            <img src="images/msu.jpg" id="joshPic3" alt="">
+          </div>
+        </div>
+
+        <div class="section4">
+          <div class="fourTopTop">
+            Report an issue?
+          </div>
+          <div class="fourTop">
+            <div class="fourText">
+              <label id="label1">Type your message</label>
+              <textarea name="name"></textarea>
+            </div>
+
+            <div class="fourDrop">
+              <label id="label2">Select your phone number</label>
+              <select name="cars" id="numList">
+                <option>000-000-0001</option>
+                <option>000-000-0002</option>
+                <option>000-000-0003</option>
+                <option>000-000-0004</option>
+                <option>000-000-0005</option>
+                <option>000-000-0006</option>
+                <option>000-000-0007</option>
+                <option>000-000-0008</option>
+                <option>000-000-0009</option>
+                <option>000-000-0010</option>
+                <option>000-000-0011</option>
+                <option>000-000-0012</option>
+                <option>000-000-0013</option>
+                <option>000-000-0014</option>
+                <option>000-000-0015</option>
+                <option>000-000-0016</option>
+                <option>000-000-0017</option>
+                <option>000-000-0018</option>
+                <option>000-000-0019</option>
+                <option>000-000-0020</option>
+                <option>000-000-0021</option>
+                <option>000-000-0022</option>
+                <option>000-000-0023</option>
+                <option>000-000-0024</option>
+                <option>000-000-0025</option>
+                <option>000-000-0026</option>
+                <option>000-000-0027</option>
+                <option>000-000-0028</option>
+                <option>000-000-0029</option>
+                <option>000-000-0030</option>
+                <option>000-000-0031</option>
+                <option>000-000-0032</option>
+                <option>000-000-0033</option>
+                <option>000-000-0034</option>
+                <option>000-000-0035</option>
+                <option>000-000-0036</option>
+                <option>000-000-0037</option>
+                <option>000-000-0038</option>
+                <option>000-000-0039</option>
+                <option>000-000-0040</option>
+                <option>000-000-0041</option>
+                <option>000-000-0042</option>
+                <option>000-000-0043</option>
+                <option>000-000-0044</option>
+                <option>000-000-0045</option>
+                <option>000-000-0046</option>
+                <option>000-000-0047</option>
+                <option>000-000-0048</option>
+                <option>000-000-0049</option>
+                <option>000-000-0050</option>
+                <option>000-000-0051</option>
+                <option>000-000-0052</option>
+                <option>000-000-0053</option>
+                <option>000-000-0054</option>
+                <option>000-000-0055</option>
+                <option>000-000-0056</option>
+                <option>000-000-0057</option>
+                <option>000-000-0058</option>
+                <option>000-000-0059</option>
+                <option>000-000-0060</option>
+                <option>000-000-0061</option>
+                <option>000-000-0062</option>
+                <option>000-000-0063</option>
+                <option>000-000-0064</option>
+                <option>000-000-0065</option>
+                <option>000-000-0066</option>
+                <option>000-000-0067</option>
+                <option>000-000-0068</option>
+                <option>000-000-0069</option>
+                <option>000-000-0070</option>
+                <option>000-000-0071</option>
+                <option>000-000-0072</option>
+                <option>000-000-0073</option>
+                <option>000-000-0074</option>
+                <option>000-000-0075</option>
+                <option>000-000-0076</option>
+                <option>000-000-0077</option>
+                <option>000-000-0078</option>
+                <option>000-000-0079</option>
+                <option>000-000-0080</option>
+                <option>000-000-0081</option>
+                <option>000-000-0082</option>
+                <option>000-000-0083</option>
+                <option>000-000-0084</option>
+                <option>000-000-0085</option>
+                <option>000-000-0086</option>
+                <option>000-000-0087</option>
+                <option>000-000-0088</option>
+                <option>000-000-0089</option>
+                <option>000-000-0090</option>
+                <option>000-000-0091</option>
+                <option>000-000-0092</option>
+                <option>000-000-0093</option>
+                <option>000-000-0094</option>
+                <option>000-000-0095</option>
+                <option>000-000-0096</option>
+                <option>000-000-0097</option>
+                <option>000-000-0098</option>
+                <option>000-000-0099</option>
+                <option>000-000-0100</option>
+                <option>000-000-0101</option>
+                <option>000-000-0102</option>
+                <option>000-000-0103</option>
+                <option>000-000-0104</option>
+                <option>000-000-0105</option>
+                <option>000-000-0106</option>
+                <option>000-000-0107</option>
+                <option>000-000-0108</option>
+                <option>000-000-0109</option>
+                <option>000-000-0110</option>
+                <option>000-000-0111</option>
+                <option>000-000-0112</option>
+                <option>000-000-0113</option>
+                <option>000-000-0114</option>
+                <option>000-000-0115</option>
+                <option>000-000-0116</option>
+                <option>000-000-0117</option>
+                <option>000-000-0118</option>
+                <option>000-000-0119</option>
+                <option>000-000-0120</option>
+                <option>000-000-0121</option>
+                <option>000-000-0122</option>
+                <option>000-000-0123</option>
+                <option>000-000-0124</option>
+                <option>000-000-0125</option>
+                <option>000-000-0126</option>
+                <option>000-000-0127</option>
+                <option>000-000-0128</option>
+                <option>000-000-0129</option>
+                <option>000-000-0130</option>
+                <option>000-000-0131</option>
+                <option>000-000-0132</option>
+                <option>000-000-0133</option>
+                <option>000-000-0134</option>
+                <option>000-000-0135</option>
+                <option>000-000-0136</option>
+                <option>000-000-0137</option>
+                <option>000-000-0138</option>
+                <option>000-000-0139</option>
+                <option>000-000-0140</option>
+                <option>000-000-0141</option>
+                <option>000-000-0142</option>
+                <option>000-000-0143</option>
+                <option>000-000-0144</option>
+                <option>000-000-0145</option>
+                <option>000-000-0146</option>
+                <option>000-000-0147</option>
+                <option>000-000-0148</option>
+                <option>000-000-0149</option>
+                <option>000-000-0150</option>
+                <option>000-000-0151</option>
+                <option>000-000-0152</option>
+                <option>000-000-0153</option>
+                <option>000-000-0154</option>
+                <option>000-000-0155</option>
+                <option>000-000-0156</option>
+                <option>000-000-0157</option>
+                <option>000-000-0158</option>
+                <option>000-000-0159</option>
+                <option>000-000-0160</option>
+                <option>000-000-0161</option>
+                <option>000-000-0162</option>
+                <option>000-000-0163</option>
+                <option>000-000-0164</option>
+                <option>000-000-0165</option>
+                <option>000-000-0166</option>
+                <option>000-000-0167</option>
+                <option>000-000-0168</option>
+                <option>000-000-0169</option>
+                <option>000-000-0170</option>
+                <option>000-000-0171</option>
+                <option>000-000-0172</option>
+                <option>000-000-0173</option>
+                <option>000-000-0174</option>
+                <option>000-000-0175</option>
+                <option>000-000-0176</option>
+                <option>000-000-0177</option>
+                <option>000-000-0178</option>
+                <option>000-000-0179</option>
+                <option>000-000-0180</option>
+                <option>000-000-0181</option>
+                <option>000-000-0182</option>
+                <option>000-000-0183</option>
+                <option>000-000-0184</option>
+                <option>000-000-0185</option>
+                <option>000-000-0186</option>
+                <option>000-000-0187</option>
+                <option>000-000-0188</option>
+                <option>000-000-0189</option>
+                <option>000-000-0190</option>
+                <option>000-000-0191</option>
+                <option>000-000-0192</option>
+                <option>000-000-0193</option>
+                <option>000-000-0194</option>
+                <option>000-000-0195</option>
+                <option>000-000-0196</option>
+                <option>000-000-0197</option>
+                <option>000-000-0198</option>
+                <option>000-000-0199</option>
+                <option>000-000-0200</option>
+                <option>000-000-0201</option>
+                <option>000-000-0202</option>
+                <option>000-000-0203</option>
+                <option>000-000-0204</option>
+                <option>000-000-0205</option>
+                <option>000-000-0206</option>
+                <option>000-000-0207</option>
+                <option>000-000-0208</option>
+                <option>000-000-0209</option>
+                <option>000-000-0210</option>
+                <option>000-000-0211</option>
+                <option>000-000-0212</option>
+                <option>000-000-0213</option>
+                <option>000-000-0214</option>
+                <option>000-000-0215</option>
+                <option>000-000-0216</option>
+                <option>000-000-0217</option>
+                <option>000-000-0218</option>
+                <option>000-000-0219</option>
+                <option>000-000-0220</option>
+                <option>000-000-0221</option>
+                <option>000-000-0222</option>
+                <option>000-000-0223</option>
+                <option>000-000-0224</option>
+                <option>000-000-0225</option>
+                <option>000-000-0226</option>
+                <option>000-000-0227</option>
+                <option>000-000-0228</option>
+                <option>000-000-0229</option>
+                <option>000-000-0230</option>
+                <option>000-000-0231</option>
+                <option>000-000-0232</option>
+                <option>000-000-0233</option>
+                <option>000-000-0234</option>
+                <option>000-000-0235</option>
+                <option>000-000-0236</option>
+                <option>000-000-0237</option>
+                <option>000-000-0238</option>
+                <option>000-000-0239</option>
+                <option>000-000-0240</option>
+                <option>000-000-0241</option>
+                <option>000-000-0242</option>
+                <option>000-000-0243</option>
+                <option>000-000-0244</option>
+                <option>000-000-0245</option>
+                <option>000-000-0246</option>
+                <option>000-000-0247</option>
+                <option>000-000-0248</option>
+                <option>000-000-0249</option>
+                <option>000-000-0250</option>
+                <option>000-000-0251</option>
+                <option>000-000-0252</option>
+                <option>000-000-0253</option>
+                <option>000-000-0254</option>
+                <option>000-000-0255</option>
+                <option>000-000-0256</option>
+                <option>000-000-0257</option>
+                <option>000-000-0258</option>
+                <option>000-000-0259</option>
+                <option>000-000-0260</option>
+                <option>000-000-0261</option>
+                <option>000-000-0262</option>
+                <option>000-000-0263</option>
+                <option>000-000-0264</option>
+                <option>000-000-0265</option>
+                <option>000-000-0266</option>
+                <option>000-000-0267</option>
+                <option>000-000-0268</option>
+                <option>000-000-0269</option>
+                <option>000-000-0270</option>
+                <option>000-000-0271</option>
+                <option>000-000-0272</option>
+                <option>000-000-0273</option>
+                <option>000-000-0274</option>
+                <option>000-000-0275</option>
+                <option>000-000-0276</option>
+                <option>000-000-0277</option>
+                <option>000-000-0278</option>
+                <option>000-000-0279</option>
+                <option>000-000-0280</option>
+                <option>000-000-0281</option>
+                <option>000-000-0282</option>
+                <option>000-000-0283</option>
+                <option>000-000-0284</option>
+                <option>000-000-0285</option>
+                <option>000-000-0286</option>
+                <option>000-000-0287</option>
+                <option>000-000-0288</option>
+                <option>000-000-0289</option>
+                <option>000-000-0290</option>
+                <option>000-000-0291</option>
+                <option>000-000-0292</option>
+                <option>000-000-0293</option>
+                <option>000-000-0294</option>
+                <option>000-000-0295</option>
+                <option>000-000-0296</option>
+                <option>000-000-0297</option>
+                <option>000-000-0298</option>
+                <option>000-000-0299</option>
+                <option>000-000-0300</option>
+                <option>000-000-0301</option>
+                <option>000-000-0302</option>
+                <option>000-000-0303</option>
+                <option>000-000-0304</option>
+                <option>000-000-0305</option>
+                <option>000-000-0306</option>
+                <option>000-000-0307</option>
+                <option>000-000-0308</option>
+                <option>000-000-0309</option>
+                <option>000-000-0310</option>
+                <option>000-000-0311</option>
+                <option>000-000-0312</option>
+                <option>000-000-0313</option>
+                <option>000-000-0314</option>
+                <option>000-000-0315</option>
+                <option>000-000-0316</option>
+                <option>000-000-0317</option>
+                <option>000-000-0318</option>
+                <option>000-000-0319</option>
+                <option>000-000-0320</option>
+                <option>000-000-0321</option>
+                <option>000-000-0322</option>
+                <option>000-000-0323</option>
+                <option>000-000-0324</option>
+                <option>000-000-0325</option>
+                <option>000-000-0326</option>
+                <option>000-000-0327</option>
+                <option>000-000-0328</option>
+                <option>000-000-0329</option>
+                <option>000-000-0330</option>
+                <option>000-000-0331</option>
+                <option>000-000-0332</option>
+                <option>000-000-0333</option>
+                <option>000-000-0334</option>
+                <option>000-000-0335</option>
+                <option>000-000-0336</option>
+                <option>000-000-0337</option>
+                <option>000-000-0338</option>
+                <option>000-000-0339</option>
+                <option>000-000-0340</option>
+                <option>000-000-0341</option>
+                <option>000-000-0342</option>
+                <option>000-000-0343</option>
+                <option>000-000-0344</option>
+                <option>000-000-0345</option>
+                <option>000-000-0346</option>
+                <option>000-000-0347</option>
+                <option>000-000-0348</option>
+                <option>000-000-0349</option>
+                <option>000-000-0350</option>
+                <option>000-000-0351</option>
+                <option>000-000-0352</option>
+                <option>000-000-0353</option>
+                <option>000-000-0354</option>
+                <option>000-000-0355</option>
+                <option>000-000-0356</option>
+                <option>000-000-0357</option>
+                <option>000-000-0358</option>
+                <option>000-000-0359</option>
+                <option>000-000-0360</option>
+                <option>000-000-0361</option>
+                <option>000-000-0362</option>
+                <option>000-000-0363</option>
+                <option>000-000-0364</option>
+                <option>000-000-0365</option>
+                <option>000-000-0366</option>
+                <option>000-000-0367</option>
+                <option>000-000-0368</option>
+                <option>000-000-0369</option>
+                <option>000-000-0370</option>
+                <option>000-000-0371</option>
+                <option>000-000-0372</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="button" class="fourBtn">Submit</button>
+        </div>
+
+      </div>
+
+      <footer>
+        <div id="footerTop">
+          <div class="filler"></div>
+          <div class="footerSection">
+            <div class="footerTitle">Info</div>
+            <div class="footerLine"></div>
+            <div class="footerOption">Age</div>
+            <div class="footerOption">Name</div>
+            <div class="footerOption">Hobbies</div>
+          </div>
+          <div class="footerSection">
+            <div class="footerTitle">More</div>
+            <div class="footerLine"></div>
+            <div class="footerOption">For Fun</div>
+            <div class="footerOption">Height</div>
+            <div class="footerOption">Top of Page</div>
+          </div>
+          <div class="footerSection">
+            <div class="footerTitle">Contact</div>
+            <div class="footerLine"></div>
+            <div class="footerOption">123 Blueberry St</div>
+            <div class="footerOption">(417) 189 142</div>
+            <div class="footerOption">Text@gmail.com</div>
+          </div>
+          <div class="filler"></div>
+        </div>
+        <div id="footerBot">
+          &copy; 2022 Copyright Josh Dejeu
+        </div>
+      </footer>
+      <div class="backTop">
+        <a class="top" href="#">^</a>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<!--
+Home Page: about you
+Fun Page: interests, hobbies, recent event
+Goal Page: classes taken, degree program, why (motivation)
+
+textbox, submit button, drop down box
+
+style pseudo-link {a:link, a:visited, a:hover, a:active}
+-->
